@@ -7,7 +7,7 @@
  */
 import * as React from 'react'
 import { FC } from 'react';
-import {View, Text} from "react-native";
+import { View, Text } from "react-native";
 import styles from "./styles";
 
 interface IProps {
@@ -18,15 +18,15 @@ interface IProps {
 
 const SectionListItem: FC<IProps> = function (props) {
   return (
-    <View style={[styles.sectionListItemContainer, {height: props.height}]}>
+    <View style={[styles.sectionListItemContainer, { height: props.height }]}>
       <View
         style={[styles.sectionListItemWrapper, {
-          backgroundColor: props.active ? '#0ea8ff' : 'transparent',
+          backgroundColor: props.active ? '#979999' : '#333333',
         }]}
       >
         <Text
           style={[styles.sectionListItemText, {
-            color: props.active ? 'white' : '#333',
+            color: props.active ? 'white' : 'white',
           }]}
         >
           {props.title}

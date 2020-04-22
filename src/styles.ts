@@ -6,7 +6,7 @@
  * Desc:
  */
 
-import {StyleSheet} from "react-native";
+import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
   container: {
@@ -14,12 +14,12 @@ export default StyleSheet.create({
   },
   sectionHeaderContainer: {
     justifyContent: 'center',
-    backgroundColor: '#F4F4F4',
+    backgroundColor: 'transparent',
     paddingLeft: 15
   },
   sectionHeaderTitle: {
-    color: '#888',
-    fontSize: 14
+    color: '#FFFFFF',
+    fontSize: 12
   },
   sectionListItemContainer: {
     width: 30,
@@ -27,15 +27,15 @@ export default StyleSheet.create({
     alignItems: 'center'
   },
   sectionListItemWrapper: {
-    width: 16,
-    height: 16,
-    borderRadius: 8,
+    width: 18,
+    height: 18,
+    borderRadius: 9,
     justifyContent: 'center',
     alignItems: 'center'
   },
   sectionListItemText: {
-    fontSize: 8,
+    fontSize: 10,
     textAlign: 'center',
-    fontFamily: 'PingFangSC-Regular'
+    fontFamily: 'gt-america-regular'
   }
 })
